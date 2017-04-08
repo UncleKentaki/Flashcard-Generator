@@ -11,7 +11,7 @@ BasicCard = function (front, back) {
         };
         // add card to log.txt
         fs.appendFile("log.txt", JSON.stringify(card) + ';', "utf8", function (error) {
-            // if there is an error, log the error
+            
             if (error) {
                 console.log(error);
             }
