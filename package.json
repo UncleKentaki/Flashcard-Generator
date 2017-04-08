@@ -1,0 +1,24 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "generates flashcards...",
+  "main": "app.js",
+  "dependencies": {
+    "firebase": "^3.7.5",
+    "jsonfile": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UncleKentaki/Flashcard-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UncleKentaki/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/UncleKentaki/Flashcard-Generator#readme"
+}
