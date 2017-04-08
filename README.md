@@ -12,4 +12,4 @@ see the examples provided or add your own cards using
 
  or
  
-`var newCard = new ClozeCard("Full text here", "Text to be removed");
+`var newCard = new ClozeCard("Full text here", "Text to be removed");`
