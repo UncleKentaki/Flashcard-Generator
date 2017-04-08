@@ -1,7 +1,7 @@
 var fs = require('fs');
 //constructor for basic cards
-BasicCard = function(front,back) {
-    if (this instanceof BasicCard ) {
+BasicCard = function (front, back) {
+    if (this instanceof BasicCard) {
         this.front = front;
         this.back = back;
 
@@ -10,15 +10,15 @@ BasicCard = function(front,back) {
             back: this.back,
         };
         // add card to log.txt
-        fs.appendFile("log.txt", JSON.stringify(card) + ';', "utf8", function(error) {
+        fs.appendFile("log.txt", JSON.stringify(card) + ';', "utf8", function (error) {
             // if there is an error, log the error
             if (error) {
                 console.log(error);
             }
         });
-       
+
     } else {
-        return new BasicCard(front,back);
+        return new BasicCard(front, back);
     }
 
 }
